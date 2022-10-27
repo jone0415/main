@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/movie.css">
+    <script>
+        function clock() {
+          const t = new Date().toLocaleTimeString([], {hour12: false})
+          document.getElementById('out2').textContent = t; // 例2
+        }
+        setInterval(clock, 1000);
+        window.addEventListener('DOMContentLoaded', clock);
+        </script>
+    <title>動画＆写真</title>
+</head>
+<body>
+        <!--headerの部分です-->
+        <header>
+            <h1 class="headline">
+              <a href="john's homepage.html">
+                <img src="img/ジョンのロゴ.jpeg"width="207"height="86">
+              </a>
+          </h1>
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a href="learn.html"><P>知る</p></a>
+            </li>
+            <li class="nav-list-item">
+              <a href="">動画＆写真</a></li>
+            <li class="nav-list-item">
+              <a href="kihu.html">寄付</a></li>
+              <li class="nav-list-item">
+                <p>現在時刻は<span id="out2"></span>です</p>
+                </li>
+          </ul>
+</body><br><br><br><br><br><br>
+<main>
+    <div class="tube">
+    <br><h1>ジョンTube</h1><br>
+</div>
+<br><br>
+<div class="sougou">
+    <h1>総合写真＆動画一覧</h1>
+</div>
+<br>
+<div class="media">
+    <p class="box"></p>
+    <a href="media/10/23.html"><p class="box">2022.10.23　ジョンの写真</p></a>
+    <a href="media/10/24.html"><p class="box">2022.10.24　ジョンの動画</p></a>
+</div>
+</main>
+ <!--footerの部分です-->　
+ <footer>
+    <h1>　</h1>
+    <h1>フォローする</h1>
+    <div class="share">
+    <ul class="footer-menu">
+         <li><a href="https://twitter.com/Johnkun0415?ref_src=twsrc%5Etfw"><img src="img/twitter.png"height="40.9"weight="50.9"></a></li>
+        </ul></div>
+        <div class="com">
+          <h1>
+            ©ジョンのホームページ
+          </h1>
+        <h1>　</h1><hr>
+  </footer><hr size="100px">
+</html>

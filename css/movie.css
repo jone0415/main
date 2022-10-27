@@ -1,0 +1,85 @@
+@charset "uft-8";
+
+/*-headerの部分です-*/
+* {
+    margin:0; padding:0;
+  }
+  header {
+    height: 100px;
+    width: 100%;
+    padding: 15px 0;
+    background-color:white;
+    color: black;
+  }
+  header .headline{
+      line-height: 100px;
+      float: left;
+      font-size: 30px;
+      margin-left: 100px;
+  }
+  .nav-list {
+      line-height: 100px;
+      float: left;
+      margin-left: 30px;
+      list-style: none;
+  }
+  .nav-list-item {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+  }
+
+  
+  /*ジョンチューb*/
+  .tube{
+    color: black;
+    text-align: center;
+    font-family: system-ui;
+    background-color: rgba(235, 39, 39, 0.274);
+  }
+  .sougou{
+    border: 9px dotted #0cabf5;
+    color:black;
+    text-align: center;
+  }
+
+  p.box {
+    padding: 20px;
+    border-bottom: 2px solid rgb(11, 140, 245);
+    margin-top: 0px;       /* 上線の外側の余白はナシ */
+    padding-top: 0px;      /* 上線の内側の余白はナシ */
+    margin-bottom: 0.3em;  /* 下線の外側の余白量 */
+    padding-bottom: 0.3em; /* 下線の内側の余白量 */
+ }
+
+  .わからん{
+    font-size: 30px;
+    font-family:'Noto Serif JP', serif ;
+    letter-spacing: 3px;
+  }
+  .引用元{
+    text-align:right;
+  }
+    /*footerの場所です*/
+  footer{
+      width: 100%;
+      height: 100px;
+      color: black;
+      text-align: center;
+      background-color: rgba(34, 37, 35, 0.082);
+      font-family:'Noto Serif JP', serif ;
+  }
+  
+  .なぞ{
+    background-color: rgba(34, 37, 35, 0.082);
+  }
+  .share{
+    background-color: rgba(34, 37, 35, 0.082);
+  }
+  .com{
+    background-color: rgba(34, 37, 35, 0.082);
+  }
+  
+  .hr{
+    font-weight: bold;
+  }

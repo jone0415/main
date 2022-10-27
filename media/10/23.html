@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/movie.css">
+    <script>
+        function clock() {
+          const t = new Date().toLocaleTimeString([], {hour12: false})
+          document.getElementById('out2').textContent = t; // 例2
+        }
+        setInterval(clock, 1000);
+        window.addEventListener('DOMContentLoaded', clock);
+        </script>
+    <title>10.23</title>
+</head>
+<!--headerの部分です-->
+<header>
+  <ul class="nav-list">
+
+    <li class="nav-list-item">
+        <p>現在時刻は<span id="out2"></span>です</p>
+    </li>
+  </ul>
+</header>
+<main>
+    <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">初めての投稿 <a href="https://t.co/AAEZSOPkfG">pic.twitter.com/AAEZSOPkfG</a></p>&mdash; John (@Johnkun0415) <a href="https://twitter.com/Johnkun0415/status/1584008669393408000?ref_src=twsrc%5Etfw">October 23, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</main>
+<footer>
+    <h3>バグっているので前に戻るボタンはありませんので上の←で戻ってください。
+    </h3>
+</footer>
+</html>

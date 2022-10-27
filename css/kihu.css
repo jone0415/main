@@ -1,0 +1,63 @@
+@charset "UFT-8";
+
+/*-headerの部分です-*/
+* {
+    margin:0; padding:0;
+  }
+  .headline{
+    height: 68px;;
+    width: 200px;
+    font-size: 10px;
+  }
+  header {
+    height:100px;
+    width: 100%;
+    padding: 15px 0;
+    background-color:white;
+    color: black;
+  }
+  header .headline{
+      line-height: 100px;
+      float: left;
+      font-size: 30px;
+      margin-left: 100px;
+  }
+  .nav-list {
+      line-height: 100px;
+      float: left;
+      margin-left: 30px;
+      list-style: none;
+  }
+  .nav-list-item {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+  }
+main{
+    text-align: center;
+    background-color: rgba(0, 248, 74, 0.336);
+    font-family: 'Noto Serif JP', serif;
+}
+    /*footerの場所です*/
+  footer{
+      width: 100%;
+      height: 100px;
+      color: black;
+      text-align: center;
+      background-color: rgba(34, 37, 35, 0.082);
+      font-family:'Noto Serif JP', serif ;
+  }
+  
+  .なぞ{
+    background-color: rgba(34, 37, 35, 0.082);
+  }
+  .share{
+    background-color: rgba(34, 37, 35, 0.082);
+  }
+  .com{
+    background-color: rgba(34, 37, 35, 0.082);
+  }
+  
+  .hr{
+    font-weight: bold;
+  }

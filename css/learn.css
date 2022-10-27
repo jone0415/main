@@ -1,0 +1,115 @@
+@charset "uft-8";
+
+/*-headerの部分です-*/
+* {
+    margin:0; padding:0;
+  }
+  header {
+    height: 100px;
+    width: 100%;
+    padding: 15px 0;
+    background-color:white;
+    color: black;
+  }
+  header .headline{
+      line-height: 100px;
+      float: left;
+      font-size: 30px;
+      margin-left: 100px;
+  }
+  .nav-list {
+      line-height: 100px;
+      float: left;
+      margin-left: 30px;
+      list-style: none;
+  }
+  .nav-list-item {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+  }
+
+  /*mainを書いていく*/
+main{
+    background-color: rgba(60, 255, 0, 0.274);
+    text-align:center;
+    font-family: 'Noto Serif JP', serif;
+    color:black;
+    
+    
+  }
+.middle{
+    background-color: rgba(238, 255, 0, 0.342);
+    font-family: 'Noto Serif JP', serif;
+    text-align: center;
+    color:black
+  }
+  
+  footer{
+    width: 100%;
+    height: 100px;
+    color: black;
+    text-align: center;
+    background-color: rgba(34, 37, 35, 0.082);
+    font-family:'Noto Serif JP', serif ;
+}
+.share{
+  background-color: rgba(34, 37, 35, 0.082);
+}
+.com{
+  background-color: rgba(34, 37, 35, 0.082);
+}
+
+.hr{
+  font-weight: bold;
+}
+.なぞ{
+  background-color: rgba(34, 37, 35, 0.082);
+}
+
+.nozoku{
+  text-align: center;
+  font-family:'Noto Serif JP', serif ;
+  color:black
+  
+}
+/*buttom*/
+
+/*buttomについて*/
+.btn--orange,
+a.btn--orange {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: hsl(249, 98%, 50%);
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #fff;
+  background: hsl(160, 100%, 50%);
+}
+.hr {
+  height: 5px;
+  background-color: rgb(5, 5, 5);
+  width: 60%;
+  border: none;
+ }
+ .btn,
+ a.btn,
+ button.btn {
+     display:block;
+     width:150px;
+     margin:0 auto;
+   font-size: 1.6rem;
+   font-weight: 700;
+   line-height: 1.5;
+   position: relative;
+   font-family:'Noto Serif JP', serif ;
+   padding: 1rem 4rem;
+   -webkit-transition: all 0.3s;
+   transition: all 0.3s;
+   text-align: center;
+   text-decoration: none;
+   letter-spacing: 0.1em;
+   color: #f8fcff;
+   border-radius: 0.5rem;
+ }
